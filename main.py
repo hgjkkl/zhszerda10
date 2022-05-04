@@ -32,6 +32,7 @@ df.to_sql('books', conn, if_exists='replace', index= False)
 # GUI - a plotting kulon
 gui = show(df)
 
+# plottng - nem mindegyik kombinacio mukodik
 while True:
     print("X tengely - User Rating/Price/Year ")
     axisX = input()
